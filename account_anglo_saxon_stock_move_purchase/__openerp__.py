@@ -23,17 +23,20 @@
 ###############################################################################
 {
     "name": "Account Anglo-Saxon Stock Move Purchase",
-    "version": "8.0.0.1.6",
+    "version": "8.0.0.1.7",
     "author": "Vauxoo",
     "category": "",
     "website": "http://www.vauxoo.com/",
     "license": "",
     "depends": [
         "account_anglo_saxon_stock_move",
+        "purchase",
     ],
     "demo": [],
     "data": [
         'view/purchase_view.xml',
+        'data/cron_job.xml',
+        'data/action_server_data.xml',
     ],
     "test": [],
     "js": [],
